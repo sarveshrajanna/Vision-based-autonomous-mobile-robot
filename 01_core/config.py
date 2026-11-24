@@ -1,0 +1,169 @@
+LEFT_EN,  LEFT_IN1,  LEFT_IN2  = 13, 20, 21
+RIGHT_EN, RIGHT_IN1, RIGHT_IN2 = 12, 5, 6
+HALF_TRACK_M = 0.075
+STEER_GAIN   = 2.2
+
+
+MIN_DUTY   = 0.14
+MAX_DUTY   = 0.40
+CRUISE     = 0.90
+
+SPIN_DUTY  = 0.95
+
+PIVOT_DUTY = 0.24
+
+
+MIN_DRIVE_V = 0.70
+PWM_HZ     = 1000
+
+
+SLEW       = 0.08
+LEFT_TRIM  = 1.00
+RIGHT_TRIM = 1.00
+PULSE_MODE    = True
+PULSE_ON      = 5
+PULSE_OFF     = 5
+MANUAL_ON     = 4
+MANUAL_OFF    = 2
+MANUAL_DUTY   = 0.55
+MANUAL_TURN   = 0.34
+CAM_W, CAM_H = 640, 480
+FOV_H_DEG    = 53.5
+FOV_V_DEG    = 41.41
+SWAP_RB      = False
+FLAT_FIELD   = True
+FLIP         = True
+ROTATE_DEG   = 0
+
+
+MAX_EXPOSURE_US = 30000
+
+
+MAX_GAIN        = 12.0
+CAM_HEIGHT_CM = 12.5
+CAM_TILT_DEG  = 11.7
+DIST_TABLE    = "dist_table.json"
+SEED_BOX      = (0.12, 0.88, 0.86, 0.99)
+
+
+DETECTOR      = "balanced"
+CLOSE_TRUST_CM = 45.0
+
+EDGE_THRESH   = 34.0
+COLOR_K       = 3.2
+HUE_MIN_SPREAD = 40.0
+
+
+V_BRIGHT_TOL  = 3.0
+
+
+PRE_BLUR      = 4.0
+
+MIN_BLOB_PX   = 900
+
+
+MIN_BLOB_H    = 22
+OPEN_PX       = 5
+RUN_PX        = 11
+
+COL_FILL      = 0.18
+
+
+SCAN_SIDE_PX   = 45
+
+
+SCAN_BOTTOM_PX = 22
+
+
+SCAN_TOP      = 0.02
+
+
+N_COLS        = 9
+SMOOTH_FRAMES = 3
+MAX_RANGE_CM  = 400.0
+
+
+GOAL_MODE     = "aruco"
+ARUCO_DICTS   = ("DICT_4X4_50",)
+
+
+MARKER_WIDTH_CM = 15.0
+
+
+GOAL_MARKER_ID  = 0
+
+
+GOAL_STOP_CM  = 45.0
+
+GOAL_HSV_FILE = "goal_hsv.json"
+GOAL_MIN_AREA = 400
+OBSTACLE_MODE = "bright"
+OBS_POLARITY  = "bright"
+
+OBS_V_MAX     = 95
+OBS_V_MIN     = 110
+
+OBS_S_MAX     = 200
+
+
+OBS_MIN_CM    = 45
+
+
+OBS_MIN_PX    = 900
+GOAL_GUARD_DEG = 12.0
+
+CONTROLLER    = "track"
+AVOID         = True
+STRAIGHT_DEG  = 5.0
+
+
+NEAR_CM       = 90.0
+KAPPA_MAX     = 0.40
+
+
+KAPPA_MAX_NEAR = 1.30
+
+
+KAPPA_RATE    = 0.20
+
+
+RECENTER_DEG  = 20.0
+CENTRED_DEG   = 6.0
+MAX_RECENTRE_DEG = 35.0
+AVOID_CM      = 75.0
+AVOID_KAPPA   = 0.28
+
+BLOCK_DEG     = 11.0
+
+MAX_OFFSET_DEG = 17.0
+
+
+OUT_MAX_S     = 0.5
+
+
+PASS_MAX_S    = 1.5
+BACK_MAX_S    = 0.6
+EDGE_DEG      = 13.0
+
+MAX_BLIND_DEG = 25.0
+
+
+SOLID_FRAMES  = 8
+
+
+LOST_GRACE    = 45
+
+
+TURN_CONF_MIN = 0.15
+
+
+TURN_CLAMP_TICKS = 40
+HZ = 10
+STREAM_PORT = 8000
+WEB_USER = "rover"
+WEB_PASS = "rover2026"
+LAN_QUALITY      = 85
+LAN_MIN_INTERVAL = 0.05
+STREAM_SCALE     = 0.5
+STREAM_QUALITY   = 45
+STREAM_MIN_INTERVAL = 0.35
